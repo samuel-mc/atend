@@ -105,6 +105,12 @@ body {
     text-decoration: none;  
 }
 
+.header__side--left > div > div {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+}
+
 .header__photo {
     border-radius: 50%;
     height: 80px;
