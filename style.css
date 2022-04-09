@@ -272,7 +272,7 @@ body {
     font-size: var(--sm);
 }
 
-.main__table td svg {
+.main__table i {
     height: var(--md);
     margin: 0 4px;
 }
@@ -354,6 +354,11 @@ body {
 .main__modal--edit {
     top: 200px;
     right: 180px;
+}
+
+.main__modal > div {
+    display: flex;
+    justify-content: end;
 }
 
 .main__modal--filtrar {
